@@ -1,0 +1,35 @@
+{
+	"baseLayers": [
+		{ 
+			"name": "World Terrain",
+			"id": "Esri.WorldTerrain" 
+		},
+		{
+			"name": "Stamen Terrain",
+			"id": "Stamen.Terrain"
+		},
+		{
+			"name": "World Shaded Relief",
+			"id": "Esri.WorldShadedRelief"
+		},
+		{
+			"name": "Nat Geo",
+			"id": "Esri.NatGeoWorldMap"
+		}
+	],
+
+	"overlayMaps": [
+		{
+			"id": "turkish-empire",
+			"name": "Turkish Empire",
+			"url": "https://mapwarper.net/maps/tile/27916/{z}/{x}/{y}.png",
+			"bounds": [[57.200, 107.405], [7.130, -36.383]]
+		},
+		{
+			"id": "king-james",
+			"name": "King James",
+			"url": "https://mapwarper.net/maps/tile/27639/{z}/{x}/{y}.png",
+			"bounds": [[33.440, 38.306], [30.097, 29.319]]
+		}
+	]
+}
